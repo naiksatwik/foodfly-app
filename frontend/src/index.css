@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  
+    .blackBtn{
+      @apply bg-black px-4 py-2 rounded-full text-white
+    }
+
+    .orangeButton{
+      @apply border-2 border-[#FB8700] text-[#FB8700] p-1 px-2  rounded-xl
+    }
+}
