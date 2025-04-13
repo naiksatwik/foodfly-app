@@ -1,0 +1,18 @@
+{"level":"error","message":"Failed to fetch admin orders - Operation `orderdetails.find()` buffering timed out after 10000ms","timestamp":"2025-04-06 12:59:38"}
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object]","timestamp":"2025-04-06 13:01:02"}
+{"level":"info","message":"Fetched 2 admin orders","timestamp":"2025-04-06 13:01:02"}
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object]","timestamp":"2025-04-06 13:01:02"}
+{"level":"info","message":"Fetched 2 admin orders","timestamp":"2025-04-06 13:01:02"}
+{"level":"info","message":"Fetched 2 admin orders","timestamp":"2025-04-06 13:04:08"}
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object]","timestamp":"2025-04-06 13:04:08"}
+{"level":"info","message":"Fetched 2 admin orders","timestamp":"2025-04-06 13:04:08"}
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object]","timestamp":"2025-04-06 13:04:08"}
+{"level":"info","message":"Product added successfully: Wings (3)","timestamp":"2025-04-06 13:05:08"}
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object],[object Object]","timestamp":"2025-04-06 13:05:15"}
+{"level":"info","message":"Fetched 2 admin orders","timestamp":"2025-04-06 13:05:15"}
+{"level":"info","message":"Fetched 2 admin orders","timestamp":"2025-04-06 13:05:15"}
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object],[object Object]","timestamp":"2025-04-06 13:05:15"}
+info: Product fetched successfully: [object Object],[object Object],[object Object] {"timestamp":"2025-04-08T04:50:21.652Z"}
+info: Fetched 2 admin orders {"timestamp":"2025-04-08T04:50:21.690Z"}
+info: Product fetched successfully: [object Object],[object Object],[object Object] {"timestamp":"2025-04-08T04:50:21.734Z"}
+info: Fetched 2 admin orders {"timestamp":"2025-04-08T04:50:21.748Z"}

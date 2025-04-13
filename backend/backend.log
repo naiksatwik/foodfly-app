@@ -7,10 +7,35 @@
 [33m[nodemon] watching path(s): *.*[39m
 [33m[nodemon] watching extensions: js,mjs,json[39m
 [32m[nodemon] starting `node Server.js`[39m
+{"level":"WARN","timestamp":"2025-04-13T13:12:54.157Z","logger":"kafkajs","message":"KafkaJS v2.0.0 switched default partitioner. To retain the same partitioning behavior as in previous versions, create the producer with the option \"createPartitioner: Partitioners.LegacyPartitioner\". See the migration guide at https://kafka.js.org/docs/migration-guide-v2.0.0#producer-new-default-partitioner for details. Silence this warning by setting the environment variable \"KAFKAJS_NO_PARTITIONER_WARNING=1\""}
 Server is started ...
-(node:9648) [DEP0170] DeprecationWarning: The URL mongodb://naiksatwik7:satwik123@ac-yrjocu1-shard-00-00.x1asaku.mongodb.net:27017,ac-yrjocu1-shard-00-01.x1asaku.mongodb.net:27017,ac-yrjocu1-shard-00-02.x1asaku.mongodb.net:27017/?authSource=admin&replicaSet=atlas-1quleb-shard-0&retryWrites=true&w=majority&appName=FoodFlyDB&ssl=true is invalid. Future versions of Node.js will throw an error.
+Kafka topics verified
+(node:109473) [DEP0170] DeprecationWarning: The URL mongodb://naiksatwik7:satwik123@ac-yrjocu1-shard-00-01.x1asaku.mongodb.net:27017,ac-yrjocu1-shard-00-00.x1asaku.mongodb.net:27017,ac-yrjocu1-shard-00-02.x1asaku.mongodb.net:27017/?authSource=admin&replicaSet=atlas-1quleb-shard-0&retryWrites=true&w=majority&appName=FoodFlyDB&ssl=true is invalid. Future versions of Node.js will throw an error.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-(node:9648) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
-(node:9648) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+(node:109473) [MONGODB DRIVER] Warning: Current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+(node:109473) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
 Connection Done ... 
-[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object],[object Object]","timestamp":"2025-04-13T13:12:59.684Z"}
+{"level":"info","message":"Fetched 2 admin orders","timestamp":"2025-04-13T13:12:59.727Z"}
+{"level":"info","message":"Fetched 2 admin orders","timestamp":"2025-04-13T13:12:59.818Z"}
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object],[object Object]","timestamp":"2025-04-13T13:12:59.873Z"}
+{"level":"info","message":"Product with id 2 deleted successfully","timestamp":"2025-04-13T13:13:32.328Z"}
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object]","timestamp":"2025-04-13T13:13:32.637Z"}
+{"level":"info","message":"Fetched 2 admin orders","timestamp":"2025-04-13T13:13:32.658Z"}
+{"level":"info","message":"Fetched 2 admin orders","timestamp":"2025-04-13T13:13:32.738Z"}
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object]","timestamp":"2025-04-13T13:13:32.755Z"}
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object]","timestamp":"2025-04-13T13:13:46.738Z"}
+{"level":"info","message":"Fetched 2 admin orders","timestamp":"2025-04-13T13:13:46.750Z"}
+{"level":"info","message":"Fetched 2 admin orders","timestamp":"2025-04-13T13:13:46.870Z"}
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object]","timestamp":"2025-04-13T13:13:46.879Z"}
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object]","timestamp":"2025-04-13T13:13:48.684Z"}
+{"level":"info","message":"Fetched 2 admin orders","timestamp":"2025-04-13T13:13:48.687Z"}
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object]","timestamp":"2025-04-13T13:13:48.784Z"}
+{"level":"info","message":"Fetched 2 admin orders","timestamp":"2025-04-13T13:13:48.787Z"}
+{"level":"warn","message":"Registration failed: User already exists - naiksatwik7@gmail.com","timestamp":"2025-04-13T13:14:28.790Z"}
+{"level":"info","message":"User registration successfully - naiksatwik78@gmail.com","timestamp":"2025-04-13T13:14:34.217Z"}
+{"level":"info","message":"Order saved for admin by user naiksatwik78@gmail.com","timestamp":"2025-04-13T13:14:50.460Z"}
+{"level":"info","message":"Fetched 3 admin orders","timestamp":"2025-04-13T13:14:50.824Z"}
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object]","timestamp":"2025-04-13T13:14:50.831Z"}
+{"level":"info","message":"Fetched 3 admin orders","timestamp":"2025-04-13T13:14:50.884Z"}
+{"level":"info","message":"Product fetched successfully: [object Object],[object Object]","timestamp":"2025-04-13T13:14:50.902Z"}
